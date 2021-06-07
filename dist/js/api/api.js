@@ -7,5 +7,6 @@
 //     // headers: {'X-Custom-Header': 'foobar'}
 // });
 
-axios.defaults.baseURL = 'http://localhost:3000/api/';
+// axios.defaults.baseURL = 'http://localhost:3000/api/';
+axios.defaults.baseURL = 'http://escolaisttucano.com/api/';
 axios.defaults.headers.common['Authorization'] = 'AUTH_TOKEN';
